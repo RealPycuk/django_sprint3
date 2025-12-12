@@ -3,8 +3,6 @@ from django.utils import timezone
 from .models import Post, Category
 from django.db.models import Q
 
-# Create your views here.
-
 
 def index(request):
     """Главная страница с 5-ю последними опубликованными постами"""
